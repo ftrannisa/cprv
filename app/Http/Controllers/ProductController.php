@@ -9,11 +9,9 @@ use Session;
 
 class ProductController extends Controller
 {
-    //
     public function product(Request $request) {
         $value = $request->session()->get('key', false);
         if (!$value) {
-            // var_dump($value);
             Session::flash('error', 'Please login first');
             return redirect()->route('login');
         } else {

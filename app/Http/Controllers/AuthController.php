@@ -39,8 +39,6 @@ class AuthController extends Controller
             'pin'  => $request->input('pin'),
         ];
  
-
-
         $user = DB::table('user')->where('pin', $data['pin'])->first();
  
  

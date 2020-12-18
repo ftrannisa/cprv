@@ -3,7 +3,7 @@
     <div class="container">
         <div class="navbar-header">
 
-            <a class="navbar-brand" href="#">Tech Assessment CPR Vision</a>
+            <a class="navbar-brand" href="#">Tech Assessment</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="ml-auto navbar-nav">
