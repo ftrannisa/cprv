@@ -48,7 +48,7 @@ class AuthController extends Controller
             echo $value;
             return redirect()->route('product', ['pin' => $user]);
         } else {
-            Session::flash('error', 'Please input the correct PIN');
+            Session::flash('error', 'Please input the correct PIN. Try using 1234');
             return redirect()->route('login');
         }
  
